@@ -1,5 +1,10 @@
 import { Noto_Serif_Bengali } from "next/font/google";
 import "./globals.css";
+
+// Required Slick Stylesheets
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 import Navbar from "@/component/layout/navbar/Navbar";
 import { Providers } from "@/providers/Providers";
 import Footer from "@/component/layout/footer/Footer";

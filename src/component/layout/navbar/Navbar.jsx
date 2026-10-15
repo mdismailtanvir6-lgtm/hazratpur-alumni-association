@@ -22,6 +22,7 @@ const Navbar = () => {
                   src={brandLogo}
                   fill
                   alt="logo"
+                  sizes="60px" 
                   className="object-contain transition-transform duration-300 group-hover:scale-105"
                   priority
                 />
