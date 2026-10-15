@@ -8,6 +8,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Navbar from "@/component/layout/navbar/Navbar";
 import { Providers } from "@/providers/Providers";
 import Footer from "@/component/layout/footer/Footer";
+import ScrollToTopProgress from "@/component/ui/ScrollToTopProgress";
 
 const notoSerifBengali = Noto_Serif_Bengali({
   subsets: ["latin", "bengali"],
@@ -25,11 +26,16 @@ export default function RootLayout({ children }) {
       data-theme="light"
       className={`${notoSerifBengali.className} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">
+      <body className="min-h-full flex flex-col relative">
         <Providers>
           <Navbar />
-          {children}
+          <main className="grow">
+            {children}
+          </main>
           <Footer />
+          
+          {/* Scroll-to-top circular progress widget fixed at bottom-right */}
+          <ScrollToTopProgress />
         </Providers>
       </body>
     </html>
