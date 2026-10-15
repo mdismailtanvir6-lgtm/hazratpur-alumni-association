@@ -1,0 +1,36 @@
+export const TOP_BATCHES = [
+  {
+    id: '2016',
+    year: 'ব্যাচ ২০১৬',
+    positionText: '১ম স্থান',
+    voted: 38,
+    total: 38,
+    percentage: '১০০%',
+    // Full color definitions for Tailwind static extraction
+    bgColor: 'bg-amber-500', 
+    badgeBg: 'bg-amber-100 text-amber-700',
+    iconType: 'crown',
+  },
+  {
+    id: '1996',
+    year: 'ব্যাচ ১৯৯৬',
+    positionText: '২য় স্থান',
+    voted: 58,
+    total: 59,
+    percentage: '৯৮.৩%',
+    bgColor: 'bg-slate-500',
+    badgeBg: 'bg-slate-100 text-slate-700',
+    iconType: 'medal',
+  },
+  {
+    id: '1995',
+    year: 'ব্যাচ ১৯৯৫',
+    positionText: '৩য় স্থান',
+    voted: 70,
+    total: 78,
+    percentage: '৮৯.৭%',
+    bgColor: 'bg-amber-700',
+    badgeBg: 'bg-amber-50 text-amber-800',
+    iconType: 'medal',
+  },
+];

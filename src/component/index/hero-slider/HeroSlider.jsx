@@ -4,7 +4,7 @@ import React, { useRef, useState, useCallback } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Slider from "react-slick";
-import { HERO_SLIDES } from "@/config/layout/index/heroSlideImg";
+import { HERO_SLIDES } from "@/config/index/heroSlideImg";
 import { SliderControls } from "./SliderControls";
 
 export default function HeroSlider() {

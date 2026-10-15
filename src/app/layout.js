@@ -9,6 +9,7 @@ import Navbar from "@/component/layout/navbar/Navbar";
 import { Providers } from "@/providers/Providers";
 import Footer from "@/component/layout/footer/Footer";
 import ScrollToTopProgress from "@/component/ui/ScrollToTopProgress";
+import { Suspense } from "react";
 
 const notoSerifBengali = Noto_Serif_Bengali({
   subsets: ["latin", "bengali"],
@@ -29,13 +30,13 @@ export default function RootLayout({ children }) {
       <body className="min-h-full flex flex-col relative">
         <Providers>
           <Navbar />
-          <main className="grow">
-            {children}
-          </main>
+          <main className="grow">{children}</main>
           <Footer />
-          
+
           {/* Scroll-to-top circular progress widget fixed at bottom-right */}
-          <ScrollToTopProgress />
+          <Suspense>
+            <ScrollToTopProgress />
+          </Suspense>
         </Providers>
       </body>
     </html>
