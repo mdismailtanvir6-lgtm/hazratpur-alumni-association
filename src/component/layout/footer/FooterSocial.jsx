@@ -3,7 +3,6 @@ import { socialLinks } from "@/config/layout/footer/footer.config";
 export default function FooterSocial() {
   return (
     <div>
-      {/* ইমেজ অনুযায়ী হেডার স্টাইল (কমলা রঙের লেফট বর্ডার) */}
       <h3 className="mb-4 text-sm font-semibold tracking-wider uppercase text-white border-l-2 border-orange-500 pl-2">
         STAY CONNECTED
       </h3>

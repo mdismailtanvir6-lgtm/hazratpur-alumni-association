@@ -1,39 +1,3 @@
-// "use client";
-
-// import Image from "next/image";
-// import Link from "next/link";
-
-// import { brandInfo, socialLinks } from "@/config/layout/footer/footer.config";
-
-// export default function FooterBrand() {
-//   return (
-//     <div>
-//       <Link
-//         href="/"
-//         onClick={() =>
-//           window.scrollTo({
-//             top: 0,
-//             behavior: "smooth",
-//           })
-//         }
-//       >
-//         <Image
-//           src={brandInfo?.logo}
-//           alt="Logo"
-//           width={70}
-//           height={70}
-//           priority
-//         />
-//       </Link>
-
-//       <p className="mt-5 leading-7 text-muted-foreground">{brandInfo?.name}</p>
-//       <p className="mt-5 leading-7 text-muted-foreground">
-//         {brandInfo?.description}
-//       </p>
-//     </div>
-//   );
-// }
-
 "use client";
 
 import Image from "next/image";

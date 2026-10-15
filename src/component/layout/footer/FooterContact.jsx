@@ -4,7 +4,6 @@ import { Phone, Mail, MessageCircle, ExternalLink } from "lucide-react";
 export default function FooterContact() {
   return (
     <div>
-      {/* ইমেজ অনুযায়ী হেডার স্টাইল (কমলা রঙের লেফট বর্ডার) */}
       <h3 className="mb-4 text-sm font-semibold tracking-wider uppercase text-white border-l-2 border-orange-500 pl-2">
         CONTACT US
       </h3>
