@@ -23,7 +23,6 @@ export default function FooterBrand() {
           alt="Logo"
           width={60}
           height={60}
-          priority
           className="object-contain rounded"
         />
       </Link>
