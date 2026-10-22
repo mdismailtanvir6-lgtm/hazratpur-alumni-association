@@ -9,7 +9,7 @@ export default function AboutSection({ data = aboutData }) {
   return (
     <section className="bg-background text-foreground relative w-full overflow-hidden py-16 md:py-24 transition-colors">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 items-center gap-8 lg:grid-cols-2 lg:gap-10">
+        <div className="grid grid-cols-1 items-center gap-15 lg:grid-cols-2 lg:gap-10">
           
           {/* Left Column: Image Box with Dotted Outer Ring */}
           <div className="flex justify-center lg:col-span-1">
