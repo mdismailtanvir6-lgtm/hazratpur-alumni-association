@@ -26,18 +26,14 @@ export const navbarItems = [
     ],
   },
   {
-    title: "অ্যালামনাই ডিরেক্টরি",
+    title: "নির্বাচন",
     href: "/alumni-directory",
   },
   {
-    title: "কার্যক্রম ও প্রজেক্ট",
+    title: "কনফারেন্স",
     href: "/projects", 
   },
 
-  {
-    title: "ইভেন্ট",
-    href: "/events",
-  },
   {
     title: "অনুদান",
     href: "/donate",

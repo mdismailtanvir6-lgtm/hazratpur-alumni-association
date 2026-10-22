@@ -27,7 +27,7 @@ const Navbar = () => {
                   
                 />
               </div>
-              <p className="font-bold text-sm md:text-base text-foreground group-hover:text-primary transition-colors leading-tight max-w-60 md:max-w-[320px]">
+              <p className="font-bold text-sm md:text-base text-foreground group-hover:text-primary transition-colors leading-tight max-w-60 md:max-w-65">
                 {brandName}
               </p>
             </Link>
