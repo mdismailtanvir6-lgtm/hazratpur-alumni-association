@@ -11,7 +11,7 @@ export const SpeechSliderControls = React.memo(({
       {/* Top Smooth Progress Bar */}
       <div className="absolute top-0 left-0 right-0 h-1 bg-border/40 z-20 overflow-hidden">
         <div
-          className="h-full bg-primary will-change-[width]"
+          className="h-full bg-highlight will-change-[width]"
           style={{ width: `${progress}%` }}
         />
       </div>
