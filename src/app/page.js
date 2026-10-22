@@ -1,6 +1,7 @@
 import AboutSection from "@/component/index/about/AboutSection";
 import FirstAlumniConference from "@/component/index/conference/FirstAlumniConference";
 import HeroSlider from "@/component/index/hero-slider/HeroSlider";
+import SpeechSlider from "@/component/index/speech-slider/SpeechSlider";
 import VoteInfoSection from "@/component/index/vote-info/VoteInfoSection";
 
 export default function Home() {
@@ -16,5 +17,8 @@ export default function Home() {
 
     {/* ===== conference section ====== */}
     <FirstAlumniConference/>
+
+    {/* ===== speech slider section ====== */}
+    <SpeechSlider/>
   </div>;
 }
