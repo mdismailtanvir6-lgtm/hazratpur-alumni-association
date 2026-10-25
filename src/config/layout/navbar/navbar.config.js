@@ -1,3 +1,5 @@
+// config/layout/navbar/navbar.config.js
+
 export const brandLogo = "/logo.jpeg";
 
 export const brandName =
@@ -9,8 +11,21 @@ export const navbarItems = [
     href: "/",
   },
   {
-    title: "পরিচয়",
-    href: "/about",
+    title: "পরিচিতি",
+    children: [
+      {
+        title: "আমাদের সম্পর্কে",
+        href: "/about",
+      },
+      {
+        title: "লক্ষ্য ও উদ্দেশ্য",
+        href: "/about/mission-vision",
+      },
+      {
+        title: "গঠনতন্ত্র ও নীতিমালা",
+        href: "/about/constitution",
+      },
+    ],
   },
   {
     title: "কমিটিসমূহ",
@@ -26,14 +41,17 @@ export const navbarItems = [
     ],
   },
   {
-    title: "নির্বাচন",
+    title: "এলামনাই ডিরেক্টরি",
     href: "/alumni-directory",
   },
   {
-    title: "কনফারেন্স",
-    href: "/projects", 
+    title: "কার্যক্রম ও প্রকল্প",
+    href: "/projects",
   },
-
+  {
+    title: "ইভেন্ট",
+    href: "/events",
+  },
   {
     title: "অনুদান",
     href: "/donate",

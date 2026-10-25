@@ -23,12 +23,12 @@ export default function Home() {
 
       {/* ===== speech slider section ====== */}
       <SpeechSlider />
+      
+      {/* ===== conference video section ====== */}
+      <ConferenceVideo />
 
       {/* ===== conference gallary section ====== */}
       <ConferenceGallery />
-
-      {/* ===== conference video section ====== */}
-      <ConferenceVideo />
     </div>
   );
 }
