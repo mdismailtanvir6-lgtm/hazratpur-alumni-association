@@ -1,28 +1,34 @@
 import AboutSection from "@/component/index/about/AboutSection";
 import ConferenceGallery from "@/component/index/conference-gallery/ConferenceGallery";
+import ConferenceVideo from "@/component/index/conference-video/ConferenceVideo";
 import FirstAlumniConference from "@/component/index/conference/FirstAlumniConference";
 import HeroSlider from "@/component/index/hero-slider/HeroSlider";
 import SpeechSlider from "@/component/index/speech-slider/SpeechSlider";
 import VoteInfoSection from "@/component/index/vote-info/VoteInfoSection";
 
 export default function Home() {
-  return <div className="">
-    {/* ===== hero slider ====== */}
-    <HeroSlider/>
+  return (
+    <div className="">
+      {/* ===== hero slider ====== */}
+      <HeroSlider />
 
-    {/* ===== vote info section ====== */}
-    <VoteInfoSection/>
+      {/* ===== vote info section ====== */}
+      <VoteInfoSection />
 
-    {/* ===== about section ====== */}
-    <AboutSection />
+      {/* ===== about section ====== */}
+      <AboutSection />
 
-    {/* ===== conference section ====== */}
-    <FirstAlumniConference/>
+      {/* ===== conference section ====== */}
+      <FirstAlumniConference />
 
-    {/* ===== speech slider section ====== */}
-    <SpeechSlider/>
+      {/* ===== speech slider section ====== */}
+      <SpeechSlider />
 
-    {/* ===== speech slider section ====== */}
-    <ConferenceGallery />
-  </div>;
+      {/* ===== conference gallary section ====== */}
+      <ConferenceGallery />
+
+      {/* ===== conference video section ====== */}
+      <ConferenceVideo />
+    </div>
+  );
 }
