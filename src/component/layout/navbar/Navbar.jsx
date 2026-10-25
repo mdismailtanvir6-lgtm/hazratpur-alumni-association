@@ -22,12 +22,11 @@ const Navbar = () => {
                   src={brandLogo}
                   fill
                   alt="logo"
-                  sizes="60px" 
+                  sizes="60px"
                   className="object-contain transition-transform duration-300 group-hover:scale-105"
-                  
                 />
               </div>
-              <p className="font-bold text-sm md:text-base text-foreground group-hover:text-primary transition-colors leading-tight max-w-60 md:max-w-65">
+              <p className="font-bold text-sm text-foreground group-hover:text-primary transition-colors leading-tight max-w-60 md:max-w-65">
                 {brandName}
               </p>
             </Link>
